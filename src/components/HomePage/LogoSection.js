@@ -43,9 +43,9 @@ function LogoSection() {
       </Container>
 
       <Container>
-        <Row id="logoRow" className="d-flex d-lg-none">
+        <Row id="logoRow" className="d-flex d-lg-none ">
           <div className={classes.LogoRowCarousel}>
-            <Row className="text-center">
+            <Row className="text-center pt-3">
               <Col>
                 <p>
                   {"<< "}Swipe left or right to change the slider{" >>"}

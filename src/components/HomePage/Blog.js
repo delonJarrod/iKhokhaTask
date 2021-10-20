@@ -109,7 +109,7 @@ function Blog() {
         <div className="border-bottom border-gray pb-3">
           <h1 className="text-center mt-3">Blog</h1>
         </div>
-        <Row>
+        <Row className={classes.marginCenter}>
           {blog.map((item) => (
             <Col key={item.Id} xs={12} md={3} className="pt-3">
               <FeatureBox>

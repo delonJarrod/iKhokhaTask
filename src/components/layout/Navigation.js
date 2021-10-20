@@ -42,7 +42,7 @@ const Navigation = () => {
             </Nav.Item>
             <Nav.Item eventkey={1} className={classes.header}>
               <Nav.Link as="href">
-                <a className="text-light text-decoration-none" href="/">
+                <a className="text-light text-decoration-none" href="/Products">
                   <h5>Products</h5>
                 </a>
               </Nav.Link>
@@ -61,14 +61,14 @@ const Navigation = () => {
 
             <Nav.Item eventkey={1} className={classes.header}>
               <Nav.Link as="href">
-                <a className="text-light text-decoration-none" href="/">
+                <a className="text-light text-decoration-none" href="/Blog">
                   <h5>Blog</h5>
                 </a>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item eventkey={1} className={classes.header}>
               <Nav.Link as="href">
-                <a className="text-light text-decoration-none" href="/">
+                <a className="text-light text-decoration-none" href="/#contact">
                   <h5>Contact</h5>
                 </a>
               </Nav.Link>

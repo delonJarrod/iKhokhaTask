@@ -8,13 +8,13 @@ function Footer() {
       <Container fluid className={classes.footerBG}>
         <Row className="border-bottom pb-3">
           <Col>
-            <h4>Develper Details & Useful infomation</h4>
+            <h4>Footer</h4>
           </Col>
         </Row>
-        <Row className="pt-3 ">
+        <Row id="contact" className="pt-3">
           <Col sm={6} md={6}>
             <h5>Contact</h5>
-            <Row className="pt-3 pb-5">
+            <Row className="pt-2">
               <a className="text-decoration-none" href="tel:0711968195">
                 <span>
                   <span> {">"} </span>
@@ -28,8 +28,8 @@ function Footer() {
           </Col>
           <Col sm={6} md={6}>
             <h5>Socials</h5>
-            <Row className="pb-5">
-              <div class="social-links mt-3">
+            <Row>
+              <div class="social-links mt-3 mb-3">
                 <a
                   href="https://www.facebook.com/jarrod.naidoo.18"
                   target="_blank"
@@ -61,7 +61,7 @@ function Footer() {
           <Col sm={2} className="pt-3 text-light">
             <img src={logoFooter} alt="LogoFooter" />
           </Col>
-          <Col sm={2} className="pt-3 text-light">
+          <Col sm={3} className="pt-3 text-light">
             <p>All Rights Reserved © 2021</p>
           </Col>
         </Row>

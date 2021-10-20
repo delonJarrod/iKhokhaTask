@@ -79,59 +79,6 @@ function Header() {
           </Col>
         </Row>
       </Container>
-
-      {/* 
-      <Container fluid className={classes.hero}>
-        <Row>
-          <Col>
-            <div id="header" className={classes.text}>
-              <div className={classes.headerMobile}>
-                <Carousel
-                  fade
-                  interval={5000}
-                  nextLabel={""}
-                  prevLabel={""}
-                  touch={true}
-                >
-                  <Carousel.Item>
-                    <div className={classes.HeadingText}>
-                      <h1 data-aos="fade-down" className="mb-5">
-                        Malvern South Precinct
-                      </h1>
-                      <p data-aos="fade-up">
-                        We are pleased to announce the formation of the Malvern
-                        South Precinct (MSP) which will be operating under the
-                        umbrella organisations of the Malvern Neighbourhood
-                        Watch (MNW) and the Malvern Community Police Forum
-                        (MCPF).
-                      </p>
-                    </div>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <div className={classes.HeadingText}>
-                      <h1 data-aos="fade-down" className="mb-5">
-                        What Does This Mean For You
-                      </h1>
-                      <p>A safer community. </p>
-                      <p data-aos="fade-up">
-                        The statistics show that increased patrolling presence
-                        has a marked decrease in crime. While we are under no
-                        illusions that MSP will remove crime in its totality, we
-                        pledge to you that we will always do our best to prevent
-                        as much crime as possible in our precinct.
-                      </p>
-                      <p>
-                        The MSP, along with the MNW and MCPF are also extremely
-                        active in community based projects/events.
-                      </p>
-                    </div>
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container> */}
     </div>
   );
 }
