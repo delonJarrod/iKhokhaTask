@@ -1,0 +1,8 @@
+.scroll {
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.marginRightClose {
+  margin-left: 50%;
+}

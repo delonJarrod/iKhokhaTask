@@ -1,0 +1,109 @@
+.headerDiv {
+  margin-top: 2%;
+  padding-bottom: 5%;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-24)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-394e5d);
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #394e5d;
+  opacity: 1;
+}
+
+.roundImage {
+  border-radius: 100px;
+}
+
+.text {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-29) var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-182333);
+  text-align: left;
+  font: normal normal normal 16px/29px Montserrat;
+  letter-spacing: 0px;
+  color: #182333;
+  opacity: 1;
+}
+.roundedButton {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-4285bc);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #4285bc;
+  border-radius: 32px;
+  opacity: 1;
+}
+.roundedButton:hover {
+  padding-left: 2%;
+  padding-right: 2%;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  background: #4285bc 0% 0% no-repeat padding-box;
+  border: 1px solid #4285bc;
+  color: white;
+  border-radius: 32px;
+  opacity: 1;
+}
+
+@media (max-width: 400px) {
+  .headerDiv {
+    margin-top: 2%;
+    padding-bottom: 5%;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) var(--unnamed-font-size-20) /
+      var(--unnamed-line-spacing-24) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-394e5d);
+    text-align: left;
+    font: normal normal bold 10px/14px Montserrat;
+    letter-spacing: 0px;
+    color: #394e5d;
+    opacity: 1;
+  }
+  .text {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+      var(--unnamed-line-spacing-29) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-182333);
+    text-align: left;
+    font: normal normal normal 12px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #182333;
+    opacity: 1;
+  }
+  .roundedButton {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: medium;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-4285bc);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #4285bc;
+    border-radius: 32px;
+    opacity: 1;
+  }
+  .roundedButton:hover {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: medium;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff;
+    background: #4285bc 0% 0% no-repeat padding-box;
+    color: white;
+    border-radius: 32px;
+    opacity: 1;
+  }
+}

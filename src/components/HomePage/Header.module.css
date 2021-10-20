@@ -1,0 +1,245 @@
+/* Header */
+.headerRow {
+  padding-top: 10%;
+  margin-left: 2%;
+}
+
+.Row1Heading {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-46) / var(--unnamed-line-spacing-57)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-394e5d);
+  text-align: left;
+  font: normal normal 600 46px/57px Montserrat;
+  letter-spacing: 0px;
+  color: #394e5d;
+  opacity: 1;
+}
+
+.Row2Text {
+  height: 54px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-22) /
+    var(--unnamed-line-spacing-27) var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-394e5d);
+  text-align: left;
+  font: normal normal normal 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #394e5d;
+  opacity: 1;
+}
+
+.Row3Heading {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-32) / var(--unnamed-line-spacing-39)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-394e5d);
+  text-align: center;
+  font: normal normal bold 32px/39px Montserrat;
+  letter-spacing: 0px;
+  color: #394e5d;
+  opacity: 1;
+}
+
+.Row3Margin {
+  padding-bottom: 5%;
+}
+
+.Row4Heading {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-24)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-394e5d);
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #394e5d;
+  opacity: 1;
+}
+
+.Row4Text {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
+    var(--unnamed-line-spacing-33) var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-182333);
+  text-align: left;
+  font: normal normal normal 18px/33px Montserrat;
+  letter-spacing: 0px;
+  color: #182333;
+  opacity: 1;
+}
+
+@media (max-width: 400px) {
+  .Row1Heading {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) var(--unnamed-font-size-32) /
+      var(--unnamed-line-spacing-39) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-394e5d);
+    text-align: left;
+    font: normal normal bold 32px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #394e5d;
+    opacity: 1;
+  }
+
+  .Row2Text {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
+      var(--unnamed-line-spacing-27) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-182333);
+    text-align: left;
+    font: normal normal normal 18px/27px Montserrat;
+    letter-spacing: 0px;
+    color: #182333;
+    opacity: 1;
+  }
+
+  .Row3Heading {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) 26px/32px
+      var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-394e5d);
+    text-align: left;
+    font: normal normal bold 26px/32px Montserrat;
+    letter-spacing: 0px;
+    color: #394e5d;
+    opacity: 1;
+  }
+  .Row4Heading {
+    margin-top: -20%;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) var(--unnamed-font-size-20) /
+      var(--unnamed-line-spacing-24) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-394e5d);
+    text-align: left;
+    font: normal normal bold 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #394e5d;
+    opacity: 1;
+  }
+
+  .Row4Text {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+      var(--unnamed-line-spacing-29) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-182333);
+    text-align: left;
+    font: normal normal normal 16px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #182333;
+    opacity: 1;
+  }
+}
+
+/* Header Back Ground CSS */
+.hero {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 130%;
+  height: 65%;
+  background: linear-gradient(
+      to right,
+      rgba(30, 67, 86, 0.8),
+      rgba(30, 67, 86, 0.6)
+    ),
+    url("../img/hero-bg.jpg") center top no-repeat;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transform: translateX(-50%) rotate(0deg);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 130%;
+  height: 70%;
+  background-color: #68a4c4;
+  opacity: 0.3;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transform: translateX(-50%) translateY(18px) rotate(2deg);
+}
+
+@media (max-width: 400px) {
+  .hero {
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 10%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 65%;
+    background: linear-gradient(
+        to right,
+        rgba(30, 67, 86, 0.8),
+        rgba(30, 67, 86, 0.6)
+      ),
+      url("../img/hero-bg.jpg") center top no-repeat;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) rotate(0deg);
+    font-family: "Lato", sans-serif;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 70%;
+    background-color: #68a4c4;
+    opacity: 0.3;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) translateY(18px) rotate(2deg);
+  }
+}
+
+.text {
+  margin-top: 10%;
+  color: white;
+  z-index: 0;
+}
+/* Images  */
+
+.firstImageClass:hover {
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: gray;
+  padding: 2%;
+}
+.secondImageClass:hover {
+  padding: 2%;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: gray;
+}

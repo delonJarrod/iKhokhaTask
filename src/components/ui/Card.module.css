@@ -1,0 +1,20 @@
+.card {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: white;
+  width: 100%;
+  border-bottom: 2px solid #dee2e6;
+  border-radius: 5px;
+  border-color: #68a4c4;
+  transform: translateY(-3px);
+}
+
+.card:hover {
+  font-size: large;
+  background-color: white;
+  border-bottom: 5px solid;
+  border-color: #68a4c4;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.425);
+  transform: translateY(-7px);
+}

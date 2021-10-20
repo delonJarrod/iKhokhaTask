@@ -1,0 +1,33 @@
+.logo {
+  width: fit-content;
+}
+.header {
+  text-decoration: white;
+  font-size: 20px;
+  text-decoration-color: white;
+  padding: 1rem;
+  margin-top: 3%;
+}
+.header:hover {
+  border-radius: 30px;
+  background-color: #13384d;
+}
+.navbar {
+  background-color: #0d2735;
+  text-decoration-color: white;
+}
+@media (max-width: 768px) {
+  .hero::after {
+    width: 180%;
+    height: 95%;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  .hero::before {
+    top: 0;
+    width: 180%;
+    height: 94%;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) translateY(20px) rotate(4deg);
+  }
+}

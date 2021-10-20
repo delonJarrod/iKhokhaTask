@@ -1,0 +1,70 @@
+.footerBG {
+  background-color: #0d2735;
+  color: #68a4c4;
+  padding-top: 2%;
+}
+
+.pWidth {
+  width: 70%;
+  margin: auto;
+}
+
+.lowerFooter {
+  background-color: #0b212d;
+}
+
+.social {
+  font-size: 18px;
+  display: inline-block;
+  background: #1e4356;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.social:hover {
+  background: #68a4c4;
+  color: #fff;
+  text-decoration: none;
+}
+.backToTop {
+  font-size: 25px;
+  display: inline-block;
+  background: #1e4356;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+.backToTop:hover {
+  background: #68a4c4;
+  color: #fff;
+  text-decoration: none;
+}
+
+.backToTop.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.AlgoCorpSol {
+  color: #68a4c4;
+  text-decoration: none;
+}
+.AlgoCorpSol:hover {
+  color: #1e4356;
+}
+.auto {
+  margin: auto;
+}

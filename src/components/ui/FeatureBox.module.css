@@ -1,0 +1,72 @@
+.featurebox {
+  border-bottom: 2px solid #dee2e6;
+  border-radius: 20px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  position: relative;
+  max-width: 380px;
+  max-height: 300px;
+  margin: 8px;
+  height: 100%;
+  border-top: 2px solid #dee2e6;
+  border-color: #68a4c4;
+  box-shadow: 0px 1px 10px -6px rgb(0 0 0 / 20%);
+}
+
+.featurebox:hover {
+  border-top: 2px solid #dee2e6;
+  border-color: #67c2f3;
+  box-shadow: 0px 1px 10px -6px rgb(0 0 0 / 20%);
+  transform: translateY(-7px);
+}
+
+.featurebox:hover:before,
+.featurebox:hover:after {
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.featurebox:hover:before {
+  -webkit-transition: width 0.2s linear, height 0.2s linear 0.2s;
+  transition: width 0.2s linear, height 0.2s linear 0.2s;
+  border-top-color: 0 0 0 0.2rem #14f18ebb;
+  border-right-color: 0 0 0 0.2rem #14f18ebb;
+}
+
+.featurebox:hover:after {
+  -webkit-transition: width 0.2s linear 0.4s, height 0.2s linear 0.6s;
+  transition: width 0.2s linear 0.4s, height 0.2s linear 0.6s;
+  border-bottom-color: 0 0 0 0.2rem #14f18ebb;
+  border-left-color: 0 0 0 0.2rem #14f18ebb;
+}
+
+.featurebox:before,
+.featurebox:after {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-radius: 0.25rem;
+  border: 2px solid transparent;
+}
+
+.featurebox:before {
+  left: -2px;
+  top: -2px;
+}
+
+.featurebox:after {
+  right: -2px;
+  bottom: -2px;
+}
+
+.featureicon {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.featureicon .fas {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: 0 0 0 0.2rem#14f18ebb;
+}
