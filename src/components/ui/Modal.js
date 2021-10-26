@@ -1,7 +1,6 @@
 import { Col, Container, Modal, Row } from "react-bootstrap";
 import { useState } from "react";
 import classes from "./Modal.module.css";
-import { BsEnvelope } from "react-icons/bs";
 
 function Modals(props) {
   const [show, setShow] = useState(false);
